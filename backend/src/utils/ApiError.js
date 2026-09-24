@@ -1,0 +1,12 @@
+﻿// ─────────────────────────────────────────────────────────
+// Utility: Custom API Error Class
+// ─────────────────────────────────────────────────────────
+export class ApiError extends Error {
+  constructor(statusCode, message, errors = []) {
+    super(message);
+    this.statusCode = statusCode;
+    this.errors     = errors;
+    this.name       = 'ApiError';
+    Error.captureStackTrace(this, this.constructor);
+  }
+}

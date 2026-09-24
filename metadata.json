@@ -1,0 +1,6 @@
+{
+  "name": "SchoolERP — Admin Suite",
+  "description": "Simple and modern web-based school management system for early education and primary academies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
